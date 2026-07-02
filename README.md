@@ -20,10 +20,10 @@
 
 ## About Me
 
-I'm an **Analyst on the GenAI Solutions team at Deloitte**, where I design agentic pipelines that categorize and self-heal IT incidents without a human in the loop for the routine 80%. Outside of work, I build local-first, citation-grounded tools — software that refuses to hallucinate when it can point to a source instead.
+I don't sit in the middle of the distribution. I build **local-first, citation-grounded AI tools** — software that refuses to hallucinate when it can point to a source instead — and I'll go to whatever depth a problem demands to get it shipped. Agentic systems, RAG, guardrails, and multi-agent routing are where I live; grit is how I get there.
 
 ```yaml
-role:        GenAI Analyst @ Deloitte
+alias:       Anomaly
 focus:       Agentic Systems · RAG · LLM Guardrails · Multi-Agent Routing
 currently:   Building an AI-advised personal finance platform + Exocortex
 education:   B.Tech CS (AI), Madanapalle Institute of Technology & Science — 8.56 GPA
@@ -154,7 +154,7 @@ A structured, first-principles curriculum through foundational AI/ML research pa
 <div align="center">
 
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=Maheshbabukona&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF"/>
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Maheshbabukona&theme=tokyonight&hide_border=true&background=0D1117"/>
+<img height="165" src="https://streak-stats.demolab.com?user=Maheshbabukona&theme=tokyonight&hide_border=true&background=0D1117&ring=FF8A6B&fire=FF8A6B&currStreakLabel=64FFDA"/>
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Maheshbabukona&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF"/>
 

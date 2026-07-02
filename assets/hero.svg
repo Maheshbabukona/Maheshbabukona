@@ -1,44 +1,48 @@
 <svg viewBox="0 0 1200 360" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0A0E14"/>
-      <stop offset="45%" stop-color="#0F2027"/>
-      <stop offset="100%" stop-color="#16323C"/>
+      <stop offset="0%" stop-color="#080B10"/>
+      <stop offset="45%" stop-color="#0E1A22"/>
+      <stop offset="100%" stop-color="#15242C"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="cool" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#64FFDA"/>
       <stop offset="100%" stop-color="#38BDF8"/>
     </linearGradient>
-    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#64FFDA" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#64FFDA" stop-opacity="0"/>
+    <linearGradient id="warm" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFC26B"/>
+      <stop offset="100%" stop-color="#FF5E7E"/>
+    </linearGradient>
+    <radialGradient id="warmGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF7A59" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#FF7A59" stop-opacity="0"/>
     </radialGradient>
-    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+    <filter id="soft" x="-80%" y="-80%" width="260%" height="260%">
       <feGaussianBlur stdDeviation="3" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
-      <circle cx="1.5" cy="1.5" r="1.5" fill="#ffffff" opacity="0.05"/>
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#ffffff" opacity="0.04"/>
     </pattern>
   </defs>
 
-  <!-- backdrop -->
   <rect width="1200" height="360" fill="url(#bg)"/>
   <rect width="1200" height="360" fill="url(#dots)"/>
-  <ellipse cx="880" cy="180" rx="360" ry="260" fill="url(#glow)"/>
+  <ellipse cx="1055" cy="90" rx="240" ry="200" fill="url(#warmGlow)"/>
 
   <!-- ==================== TEXT BLOCK ==================== -->
   <g transform="translate(70,0)">
-    <rect x="0" y="120" width="4" height="120" fill="url(#accent)"/>
-    <text x="26" y="118" fill="#5CE0C0" font-size="15" letter-spacing="5" font-weight="600">GENAI  ·  AGENTIC  SYSTEMS  ·  RAG</text>
-    <text x="24" y="182" fill="#F5F7FA" font-size="58" font-weight="700" letter-spacing="1">Mahesh Babu Kona</text>
-    <text x="26" y="222" fill="#9FB3C8" font-size="20" font-weight="400">Analyst @ Deloitte — I build agents that reason, cite, and self-heal.</text>
+    <rect x="0" y="118" width="4" height="122" fill="url(#warm)"/>
+    <text x="26" y="116" fill="#FF8A6B" font-size="16" letter-spacing="11" font-weight="700">A N O M A L Y</text>
+    <text x="24" y="180" fill="#F5F7FA" font-size="58" font-weight="700" letter-spacing="1">Mahesh Babu Kona</text>
+    <text x="26" y="220" fill="#9FB3C8" font-size="20" font-weight="400">Not built to fit the curve — built to break it, then redraw it.</text>
+    <text x="26" y="246" fill="#6B7E90" font-size="15" font-weight="400">Relentless builder. I go to any extent to ship the thing.</text>
 
     <!-- status chips -->
-    <g transform="translate(26,252)" font-size="13" fill="#CBD5E1" font-weight="500">
+    <g transform="translate(26,266)" font-size="13" fill="#CBD5E1" font-weight="500">
       <g>
         <rect x="0" y="0" width="132" height="30" rx="15" fill="#ffffff" opacity="0.06"/>
-        <circle cx="18" cy="15" r="4" fill="#64FFDA">
+        <circle cx="18" cy="15" r="4" fill="#FF8A6B">
           <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
         </circle>
         <text x="32" y="19">IEEE SCOPES '24</text>
@@ -50,71 +54,51 @@
       </g>
       <g transform="translate(278,0)">
         <rect x="0" y="0" width="158" height="30" rx="15" fill="#ffffff" opacity="0.06"/>
-        <circle cx="18" cy="15" r="4" fill="#A78BFA"/>
+        <circle cx="18" cy="15" r="4" fill="#64FFDA"/>
         <text x="32" y="19">Citation-grounded</text>
       </g>
     </g>
   </g>
 
-  <!-- ==================== AGENT ROUTING GRAPH ==================== -->
-  <g transform="translate(760,60)" stroke-linecap="round">
-    <!-- edges -->
-    <g fill="none" stroke="#2C5364" stroke-width="2">
-      <path id="e1" d="M60,120 C160,120 180,50 300,50"/>
-      <path id="e2" d="M60,120 C160,120 180,120 300,120"/>
-      <path id="e3" d="M60,120 C160,120 180,190 300,190"/>
-      <path id="e4" d="M300,50  C360,50  360,120 360,120"/>
-      <path id="e5" d="M300,120 L360,120"/>
-      <path id="e6" d="M300,190 C360,190 360,120 360,120"/>
-    </g>
-    <!-- animated flow overlay -->
-    <g fill="none" stroke="url(#accent)" stroke-width="2.5" stroke-dasharray="14 220">
-      <use href="#e1"><animate attributeName="stroke-dashoffset" values="234;0" dur="2.4s" repeatCount="indefinite"/></use>
-      <use href="#e2"><animate attributeName="stroke-dashoffset" values="234;0" dur="2.4s" begin="0.3s" repeatCount="indefinite"/></use>
-      <use href="#e3"><animate attributeName="stroke-dashoffset" values="234;0" dur="2.4s" begin="0.6s" repeatCount="indefinite"/></use>
-      <use href="#e4"><animate attributeName="stroke-dashoffset" values="234;0" dur="2.4s" begin="1.2s" repeatCount="indefinite"/></use>
-      <use href="#e5"><animate attributeName="stroke-dashoffset" values="234;0" dur="2.4s" begin="1.2s" repeatCount="indefinite"/></use>
-      <use href="#e6"><animate attributeName="stroke-dashoffset" values="234;0" dur="2.4s" begin="1.2s" repeatCount="indefinite"/></use>
-    </g>
+  <!-- ==================== ANOMALY / OUTLIER VIZ ==================== -->
+  <g transform="translate(0,0)">
+    <!-- baseline axis -->
+    <line x1="735" y1="256" x2="1130" y2="256" stroke="#2C4049" stroke-width="1.5"/>
+    <!-- the distribution: a bell curve everyone else follows -->
+    <path d="M745,256 C815,256 835,138 875,138 C915,138 935,256 1005,256" fill="none" stroke="url(#cool)" stroke-width="1.5" opacity="0.35" stroke-dasharray="3 4"/>
 
-    <!-- ingress node -->
-    <g filter="url(#soft)">
-      <circle cx="60" cy="120" r="22" fill="#0F2027" stroke="url(#accent)" stroke-width="2"/>
-      <text x="60" y="125" fill="#64FFDA" font-size="18" text-anchor="middle" font-weight="700">?</text>
+    <!-- the crowd: identical points sitting under the curve -->
+    <g fill="#4A6472" opacity="0.55">
+      <circle cx="796" cy="238" r="3"/><circle cx="812" cy="226" r="3"/><circle cx="828" cy="240" r="3"/>
+      <circle cx="842" cy="212" r="3"/><circle cx="852" cy="230" r="3"/><circle cx="860" cy="198" r="3"/>
+      <circle cx="866" cy="216" r="3"/><circle cx="872" cy="234" r="3"/><circle cx="846" cy="200" r="3"/>
+      <circle cx="878" cy="202" r="3"/><circle cx="884" cy="220" r="3"/><circle cx="892" cy="234" r="3"/>
+      <circle cx="900" cy="212" r="3"/><circle cx="910" cy="228" r="3"/><circle cx="922" cy="240" r="3"/>
+      <circle cx="836" cy="224" r="3"/><circle cx="856" cy="244" r="3"/><circle cx="870" cy="248" r="3"/>
+      <circle cx="808" cy="244" r="3"/><circle cx="940" cy="242" r="3"/><circle cx="818" cy="212" r="3"/>
+      <circle cx="888" cy="242" r="3"/><circle cx="864" cy="182" r="3"/><circle cx="878" cy="168" r="3"/>
     </g>
-    <text x="60" y="168" fill="#7A8CA0" font-size="11" text-anchor="middle">incident</text>
+    <text x="868" y="278" fill="#5A6E7A" font-size="11" text-anchor="middle" letter-spacing="1">the distribution</text>
 
-    <!-- routing agents -->
-    <g>
-      <circle cx="300" cy="50"  r="18" fill="#0F2027" stroke="#38BDF8" stroke-width="2">
-        <animate attributeName="r" values="18;20;18" dur="2.4s" begin="0.9s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="300" cy="120" r="18" fill="#0F2027" stroke="#64FFDA" stroke-width="2">
-        <animate attributeName="r" values="18;20;18" dur="2.4s" begin="1.2s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="300" cy="190" r="18" fill="#0F2027" stroke="#A78BFA" stroke-width="2">
-        <animate attributeName="r" values="18;20;18" dur="2.4s" begin="1.5s" repeatCount="indefinite"/>
-      </circle>
-    </g>
-    <text x="300" y="22"  fill="#7A8CA0" font-size="11" text-anchor="middle">triage</text>
-    <text x="336" y="124" fill="#7A8CA0" font-size="11" text-anchor="start">classify</text>
-    <text x="300" y="222" fill="#7A8CA0" font-size="11" text-anchor="middle">route</text>
+    <!-- divergent trajectory: breaking off and climbing past -->
+    <path id="traj" d="M878,168 C960,150 1010,120 1058,86" fill="none" stroke="url(#warm)" stroke-width="2.5"
+          stroke-dasharray="10 200">
+      <animate attributeName="stroke-dashoffset" values="210;0" dur="2.6s" repeatCount="indefinite"/>
+    </path>
+    <!-- arrowhead implying "further, always" -->
+    <path d="M1058,86 l-14,2 l8,-11" fill="none" stroke="#FF8A6B" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
 
-    <!-- resolution node -->
-    <g filter="url(#soft)">
-      <circle cx="360" cy="120" r="24" fill="#0F2027" stroke="url(#accent)" stroke-width="2.5"/>
-      <path d="M350,120 l7,7 l13,-15" fill="none" stroke="#64FFDA" stroke-width="3">
-        <animate attributeName="stroke-dashoffset" values="40;0" dur="2.4s" begin="2s" repeatCount="indefinite"/>
-        <animate attributeName="stroke-dasharray" values="40 40;40 40" dur="0.1s"/>
-      </path>
-    </g>
-    <text x="360" y="172" fill="#5CE0C0" font-size="11" text-anchor="middle" font-weight="600">self-healed</text>
-
-    <!-- traveling packet -->
-    <circle r="4" fill="#F5F7FA">
-      <animateMotion dur="2.4s" repeatCount="indefinite" begin="0s"
-        path="M60,120 C160,120 180,120 300,120 L360,120"/>
-      <animate attributeName="opacity" values="0;1;1;0" dur="2.4s" repeatCount="indefinite"/>
+    <!-- the anomaly node -->
+    <circle cx="1062" cy="80" r="30" fill="none" stroke="#FF7A59" stroke-width="1.5" opacity="0.6">
+      <animate attributeName="r" values="18;40;18" dur="2.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0;0.6" dur="2.6s" repeatCount="indefinite"/>
     </circle>
+    <g filter="url(#soft)">
+      <circle cx="1062" cy="80" r="15" fill="#12070A" stroke="url(#warm)" stroke-width="2.5"/>
+      <circle cx="1062" cy="80" r="5" fill="url(#warm)">
+        <animate attributeName="r" values="4;6;4" dur="1.6s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <text x="1062" y="126" fill="#FF8A6B" font-size="12" text-anchor="middle" font-weight="700" letter-spacing="1">the anomaly</text>
   </g>
 </svg>
