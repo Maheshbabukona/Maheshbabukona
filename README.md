@@ -10,9 +10,6 @@
 <a href="mailto:maheshbabukona2@gmail.com">
   <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
-<a href="https://maheshbabukona.github.io/PaperPath-AI/">
-  <img src="https://img.shields.io/badge/Reading%20List-000000?style=for-the-badge&logo=readthedocs&logoColor=white"/>
-</a>
 
 </div>
 
@@ -80,14 +77,7 @@ An agentic social-deduction game — LLM agents play Werewolf against each other
 `Multi-Agent` `LLM-vs-LLM`
 
 </td>
-<td width="50%" valign="top">
-
-### 📚 [Paper Path AI](https://maheshbabukona.github.io/PaperPath-AI/)
-A structured, first-principles curriculum through foundational AI/ML research papers — from core math to the GenAI frontier.
-
-`Research` `Curriculum Design`
-
-</td>
+<td width="50%" valign="top"></td>
 </tr>
 </table>
 
