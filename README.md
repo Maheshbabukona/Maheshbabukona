@@ -23,7 +23,11 @@
 
 ## About Me
 
-I'm not an anomaly — I was just plotted in the wrong distribution. I don't compress my variance to satisfy someone else's loss function; I build in the frame where the signal actually resolves. That means **local-first, citation-grounded AI tools** — software that refuses to hallucinate when it can point to a source instead. Agentic systems, RAG, guardrails, and multi-agent routing are where I live.
+I was never meant to fit this distribution.
+
+While most people optimize for certainty, I optimize for curiosity. I care less about following established paths and more about understanding *why* they exist in the first place.
+
+AI is where that curiosity found a home. Today I build **citation-grounded, agentic systems** that prioritize truth over confidence — and I write about the ideas that connect intelligence, engineering, and life itself.
 
 ```yaml
 alias:       Anomaly
