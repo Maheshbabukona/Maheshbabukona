@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=220&section=header&text=Mahesh%20Babu%20Kona&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Building%20agentic%20systems%20that%20reason,%20cite,%20and%20self-heal&descAlignY=58&descSize=17&animation=fadeIn" width="100%"/>
+<img src="./assets/hero.svg" width="100%" alt="Mahesh Babu Kona — GenAI · Agentic Systems · RAG"/>
+
+<br/><br/>
 
 <a href="https://www.linkedin.com/in/maheshbabukona">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
@@ -11,10 +13,6 @@
 <a href="https://maheshbabukona.github.io/PaperPath-AI/">
   <img src="https://img.shields.io/badge/Reading%20List-000000?style=for-the-badge&logo=readthedocs&logoColor=white"/>
 </a>
-
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=2C5364&center=true&vCenter=true&width=650&lines=GenAI+Analyst+%40+Deloitte;Agentic+ITSM+%7C+RAG+%7C+LangGraph+Multi-Agent+Routing;Shipping+Exocortex%2C+Valence%2C+and+other+local-first+tools;IEEE+SCOPES+2024+published+author" alt="Typing SVG"/>
 
 </div>
 
@@ -166,8 +164,6 @@ A structured, first-principles curriculum through foundational AI/ML research pa
 
 <div align="center">
 
-*"Ground it in a source, or don't generate it."*
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=100&section=footer" width="100%"/>
+<img src="./assets/footer.svg" width="100%" alt=""/>
 
 </div>
