@@ -23,7 +23,7 @@
 
 ## About Me
 
-I don't sit in the middle of the distribution. I build **local-first, citation-grounded AI tools** — software that refuses to hallucinate when it can point to a source instead — and I'll go to whatever depth a problem demands to get it shipped. Agentic systems, RAG, guardrails, and multi-agent routing are where I live; grit is how I get there.
+I'm not an anomaly — I was just plotted in the wrong distribution. I don't compress my variance to satisfy someone else's loss function; I build in the frame where the signal actually resolves. That means **local-first, citation-grounded AI tools** — software that refuses to hallucinate when it can point to a source instead. Agentic systems, RAG, guardrails, and multi-agent routing are where I live.
 
 ```yaml
 alias:       Anomaly
