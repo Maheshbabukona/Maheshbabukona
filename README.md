@@ -32,8 +32,8 @@ AI is where that curiosity found a home. Today I build **citation-grounded, agen
 ```yaml
 alias:       Anomaly
 focus:       Agentic Systems · RAG · LLM Guardrails · Multi-Agent Routing
-currently:   Building an AI-advised personal finance platform + Exocortex
-education:   B.Tech CS (AI), Madanapalle Institute of Technology & Science — 8.56 GPA
+currently:   Building Exocortex
+education:   B.Tech CS (AI)
 published:   IEEE SCOPES 2024 — Adaptive Learning Platform (RAG-based)
 ```
 
