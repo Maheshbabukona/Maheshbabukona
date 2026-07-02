@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="91" height="28" role="img" aria-label="LINKEDIN"><title>LINKEDIN</title><g shape-rendering="crispEdges"><rect width="91" height="28" fill="#0a66c2"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100"><text transform="scale(.1)" x="455" y="175" textLength="670" font-weight="bold">LINKEDIN</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="122" height="40" viewBox="0 0 122 40" font-family="'Segoe UI', system-ui, sans-serif">
+  <rect x="0.5" y="0.5" width="121" height="39" rx="9" fill="#0F161C" stroke="#8AA0B0" stroke-opacity="0.22"/>
+  <rect x="13" y="10" width="20" height="20" rx="4" fill="#0A66C2"/>
+  <text x="23" y="24.5" fill="#ffffff" font-size="11" font-weight="700" text-anchor="middle">in</text>
+  <text x="44" y="25" fill="#D6E0E8" font-size="13" font-weight="600" letter-spacing="0.3">LinkedIn</text>
+</svg>

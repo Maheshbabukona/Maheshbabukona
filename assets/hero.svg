@@ -38,24 +38,24 @@
     <text x="26" y="220" fill="#9FB3C8" font-size="20" font-weight="400">Not built to fit the curve — built to break it, then redraw it.</text>
     <text x="26" y="246" fill="#6B7E90" font-size="15" font-weight="400">What looks like noise is just signal in the wrong distribution.</text>
 
-    <!-- status chips -->
+    <!-- identity chips -->
     <g transform="translate(26,266)" font-size="13" fill="#CBD5E1" font-weight="500">
       <g>
-        <rect x="0" y="0" width="132" height="30" rx="15" fill="#ffffff" opacity="0.06"/>
+        <rect x="0" y="0" width="140" height="30" rx="15" fill="#ffffff" opacity="0.06"/>
         <circle cx="18" cy="15" r="4" fill="#FF8A6B">
           <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
         </circle>
+        <text x="32" y="19">GenAI Engineer</text>
+      </g>
+      <g transform="translate(152,0)">
+        <rect x="0" y="0" width="140" height="30" rx="15" fill="#ffffff" opacity="0.06"/>
+        <circle cx="18" cy="15" r="4" fill="#38BDF8"/>
         <text x="32" y="19">IEEE SCOPES '24</text>
       </g>
-      <g transform="translate(146,0)">
-        <rect x="0" y="0" width="118" height="30" rx="15" fill="#ffffff" opacity="0.06"/>
-        <circle cx="18" cy="15" r="4" fill="#38BDF8"/>
-        <text x="32" y="19">Local-first</text>
-      </g>
-      <g transform="translate(278,0)">
-        <rect x="0" y="0" width="158" height="30" rx="15" fill="#ffffff" opacity="0.06"/>
+      <g transform="translate(304,0)">
+        <rect x="0" y="0" width="162" height="30" rx="15" fill="#ffffff" opacity="0.06"/>
         <circle cx="18" cy="15" r="4" fill="#64FFDA"/>
-        <text x="32" y="19">Citation-grounded</text>
+        <text x="32" y="19">Builds in the open</text>
       </g>
     </g>
   </g>

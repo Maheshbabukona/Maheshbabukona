@@ -145,19 +145,6 @@ An agentic social-deduction game — LLM agents play Werewolf against each other
 
 <br/>
 
-## GitHub Stats
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Maheshbabukona&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF"/>
-<img height="165" src="https://streak-stats.demolab.com?user=Maheshbabukona&theme=tokyonight&hide_border=true&background=0D1117&ring=FF8A6B&fire=FF8A6B&currStreakLabel=64FFDA"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Maheshbabukona&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF"/>
-
-</div>
-
-<br/>
-
 <div align="center">
 
 <img src="./assets/footer.svg" width="100%" alt=""/>
