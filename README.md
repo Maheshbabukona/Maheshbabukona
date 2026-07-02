@@ -5,16 +5,16 @@
 <br/><br/>
 
 <a href="https://www.linkedin.com/in/maheshbabukona">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  <img src="./assets/badges/social-linkedin.svg" alt="LinkedIn"/>
 </a>
 <a href="mailto:maheshbabukona2@gmail.com">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  <img src="./assets/badges/social-email.svg" alt="Email"/>
 </a>
 <a href="https://x.com/Maheshbabu_kona">
-  <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/>
+  <img src="./assets/badges/social-x.svg" alt="X"/>
 </a>
 <a href="https://medium.com/@hiddenlayerNx">
-  <img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white"/>
+  <img src="./assets/badges/social-medium.svg" alt="Medium"/>
 </a>
 
 </div>
@@ -95,37 +95,37 @@ An agentic social-deduction game — LLM agents play Werewolf against each other
 
 **Languages**
 <br/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white"/>
-<img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white"/>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+<img src="./assets/badges/python.svg" alt="Python"/>
+<img src="./assets/badges/cpp.svg" alt="C++"/>
+<img src="./assets/badges/sql.svg" alt="SQL"/>
+<img src="./assets/badges/bash.svg" alt="Bash"/>
+<img src="./assets/badges/typescript.svg" alt="TypeScript"/>
 
 **GenAI & Agents**
 <br/>
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
-<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square"/>
-<img src="https://img.shields.io/badge/LangSmith-1C3C3C?style=flat-square"/>
-<img src="https://img.shields.io/badge/RAG-8A2BE2?style=flat-square"/>
-<img src="https://img.shields.io/badge/MCP-000000?style=flat-square"/>
+<img src="./assets/badges/langchain.svg" alt="LangChain"/>
+<img src="./assets/badges/langgraph.svg" alt="LangGraph"/>
+<img src="./assets/badges/langsmith.svg" alt="LangSmith"/>
+<img src="./assets/badges/rag.svg" alt="RAG"/>
+<img src="./assets/badges/mcp.svg" alt="MCP"/>
 
 **ML & Data**
 <br/>
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/>
-<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/>
-<img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white"/>
+<img src="./assets/badges/pytorch.svg" alt="PyTorch"/>
+<img src="./assets/badges/tensorflow.svg" alt="TensorFlow"/>
+<img src="./assets/badges/sklearn.svg" alt="scikit-learn"/>
+<img src="./assets/badges/pandas.svg" alt="Pandas"/>
+<img src="./assets/badges/numpy.svg" alt="NumPy"/>
 
 **Backend & Infra**
 <br/>
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
-<img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white"/>
-<img src="https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white"/>
-<img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white"/>
+<img src="./assets/badges/fastapi.svg" alt="FastAPI"/>
+<img src="./assets/badges/mongodb.svg" alt="MongoDB"/>
+<img src="./assets/badges/redis.svg" alt="Redis"/>
+<img src="./assets/badges/docker.svg" alt="Docker"/>
+<img src="./assets/badges/aws.svg" alt="AWS"/>
+<img src="./assets/badges/gcp.svg" alt="GCP"/>
+<img src="./assets/badges/azure.svg" alt="Azure"/>
 
 </div>
 
@@ -135,11 +135,11 @@ An agentic social-deduction game — LLM agents play Werewolf against each other
 
 <div align="center">
 
-![Google ML Engineer](https://img.shields.io/badge/Google-Professional%20ML%20Engineer-4285F4?style=flat-square&logo=google&logoColor=white)
-![AWS ML Engineer](https://img.shields.io/badge/AWS-Certified%20ML%20Engineer-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
-![Azure AI Engineer](https://img.shields.io/badge/Azure-AI%20Engineer%20Associate-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![NVIDIA GenAI](https://img.shields.io/badge/NVIDIA-Certified%20Associate%20(GenAI)-76B900?style=flat-square&logo=nvidia&logoColor=white)
-![Oracle GenAI](https://img.shields.io/badge/Oracle-Generative%20AI%20Professional-F80000?style=flat-square&logo=oracle&logoColor=white)
+![Google ML Engineer](./assets/badges/cert-google.svg)
+![AWS ML Engineer](./assets/badges/cert-aws.svg)
+![Azure AI Engineer](./assets/badges/cert-azure.svg)
+![NVIDIA GenAI](./assets/badges/cert-nvidia.svg)
+![Oracle GenAI](./assets/badges/cert-oracle.svg)
 
 </div>
 
